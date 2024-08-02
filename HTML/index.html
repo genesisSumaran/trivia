@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>TRIVIATEC</h1>
+    </header>
+    <main>
+        <div class="par1">
+            <script src="/JS/inicio.js"></script>
+            <p>¡Hola! ¿Quieres poner a prueba tus conocimientos y habilidades en películas, series o músicos conocidos?
+                ¡Entonces TriviaTec es perfecto para ti!
+                <br>
+                TriviaTec es una página de quiz para probar tus conocimientos en películas icónicas como <b>Mean
+                    Girls</b>, cantantes famosos como <b>Lana del Rey</b> e incluso series reconocidas como <b>Stranger
+                    Things</b>.
+            </p>
+            <p>Por favor, escribe tu nombre para iniciar esta Trivia</p>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre">
+                <input type="button" onclick="guardar_nombre()" value="Enviar">
+            </form>
+            <a href="menucategoria.html">Continuar</a>
+        </div>
+    </main>
+    <footer>
+        &copy; UltraviolenceTec
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+html {
+    background-color: hsl(352, 65%, 79%);
+    font-family: "Playwrite PL", cursive;
+    color: #333333;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: #c41e3a;
+}
+
+main.par1 {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffccd4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main.par1 p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+main.par1 a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f984a1;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+main.par1 a:hover {
+    background-color: #ff7fb6;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    color: #333333;
+}

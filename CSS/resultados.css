@@ -1,0 +1,41 @@
+html {
+    background-color: #ffd3e6;
+    font-family: "Playwrite PL", cursive;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    color: #ff6f91;
+}
+
+.main {
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ff6f91;
+    display: block;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    color: #ff6f91;
+}

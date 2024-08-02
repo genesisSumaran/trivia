@@ -1,0 +1,50 @@
+html {
+    background-color: #ffd3e6;
+    font-family: "Playwrite PL", cursive;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    color: #ff6f91;
+}
+
+.par1 {
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="submit"] {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ff6f91;
+    border-radius: 3px;
+    width: calc(100% - 22px);
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4d6d;
+}
+
+footer {
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+    color: #ff6f91;
+}
